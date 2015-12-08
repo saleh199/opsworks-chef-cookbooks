@@ -321,6 +321,18 @@ to the current deployment directory and will run ```$ php composer.phar install 
 Similar to install this recipe will download the latest version of composer from [https://getcomposer.org/installer](https://getcomposer.org/installer) 
 to the current deployment directory and will run ```$ php composer.phar update```.
 
+###Laravel
+This cookbook contains recipes to run laravel artisan commands.
+
+###laravel:artisan
+Just send custom CHEF JSON like this:
+```
+{
+    "command" : "migrate"
+    "parameters" : "--path=database/migrations/new/"
+}
+```
+
 ##fuel
 **DEPRECATED - WILL BE REMOVED IN VERSION 2.0.0** This is a collection of recipes for the FuelPHP framework.
 
