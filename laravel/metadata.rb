@@ -1,0 +1,6 @@
+name              "laravel"
+maintainer        "Saleh Saeed"
+maintainer_email  "saleh.saiid@gmail.com"
+license           "MIT"
+description       "Run artisan commands"
+version           "1.0.0"
