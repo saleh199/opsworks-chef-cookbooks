@@ -4,7 +4,7 @@ node[:deploy].each do |application, deploy|
     user "root"
     cwd "#{deploy[:deploy_to]}/current"
     code <<-EOH
-    php artisan #{node[:command]} #{node[:parameters]}
+    php artisan #{node['command']} #{node['parameters']}
     EOH
   end
 end 
