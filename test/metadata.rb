@@ -1,0 +1,6 @@
+name              "laravel test"
+maintainer        "Maher Alhammoud"
+maintainer_email  "ma8h7er@gmail.com"
+license           "MIT"
+description       "Configure PHP Laravel Project on Amazon OpsWorks"
+version           "1.0.0"
