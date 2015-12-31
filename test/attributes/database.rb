@@ -1,0 +1,5 @@
+default[:mysql][:driver]  = "mysql"
+default[:mysql][:host]  = "52.4.13.79"
+default[:mysql][:database]  = "overestate"
+default[:mysql][:username]  = "root"
+default[:mysql][:password]  = "0verEst@te"
